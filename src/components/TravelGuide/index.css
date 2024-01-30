@@ -1,0 +1,62 @@
+.app-container {
+  background-color: #eef4f7;
+  font-family: 'roboto';
+  min-height: 100vh;
+  padding: 12px;
+  overflow-y: auto;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 600;
+  color: #334155;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #52bbf0;
+}
+
+.travel-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  flex-wrap: wrap;
+}
+
+.travel-card {
+  height: 510px;
+  width: 550px;
+  margin: 15px;
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.travel-image {
+  width: 550px;
+  height: 300px;
+}
+
+.travel-heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #475569;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.travel-description {
+  font-size: 19px;
+  color: #64748b;
+  font-weight: 500;
+  padding-left: 16px;
+  padding-right: 16px;
+}
